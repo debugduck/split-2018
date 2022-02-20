@@ -1,0 +1,10 @@
+<android.support.constraint.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="@color/background"
+    tools:context="com.example.clairececil.split.GroupInfo">
+
+
+</android.support.constraint.RelativeLayout>

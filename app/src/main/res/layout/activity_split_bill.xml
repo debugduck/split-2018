@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/background" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/total_view"
+        android:layout_width="230dp"
+        android:layout_height="106dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/calculate_totals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_view"
+        android:background="@color/monokaiGreen"
+        android:textColor="@color/background"
+        android:onClick="onCalculateTotals"
+        android:text="Calculate totals" />
+
+    <ListView
+        android:id="@+id/item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculate_totals" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="144dp"
+        android:layout_height="106dp"
+        android:layout_alignBottom="@+id/total_view"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="240dp" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#F92772</color>
+    <color name="colorAccent">#26223F</color>
+    <color name="background">#272822</color>
+    <color name="textHeading">#F9FAF4</color>
+    <color name="text">#75715E</color>
+    <color name="monokaiGreen">#A7EC21</color>
+    <color name="monokaiBlue">#66D9EE</color>
+    <color name="monokaiPurple">#AE81FF</color>
+    <color name="monokaiYellow">#E5DB74</color>
+</resources>
